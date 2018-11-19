@@ -1,0 +1,207 @@
+body, html {
+    /*background-color: #7f7f7f;
+     background-image: repeating-radial-gradient(circle, white 20%, yellow 30%, green);*/
+    background-image: url("narhi_bold_stock_artikelikoko.jpg");
+    background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+}
+#border_top{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-height: ;
+    background: #ff7f27;
+    border-radius: 20px;
+    padding: 20px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li {
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left;
+}
+ul.topnav li a{
+    position: inherit;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #ffc90e;/*#ffc90e;*/
+    color: #ff7f27;
+    font-family: Arial Black;
+}
+ul.topnav li a:hover{
+    background-color:#ff7f27;
+    color: #ffc90e;
+}
+ul.topnav li.icon {
+    display: none;
+}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+#border_nav{ 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 5%;
+    background: #ffc90e;
+    border-radius: 20px;
+}
+#border_text {  
+    opacity: 0.95;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 55%;
+    max-width: 55%;
+    height: 1%;
+    background: #ffffff;
+    border: 5px transparent #c3c3c3;
+    border-radius: 20px;
+    display: -webkit-right;
+    -webkit-align-items: center;
+    display: right;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+#border_bot{ 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background: #c3c3c3;
+    border-radius: 20px;
+    padding: 20px;
+}
+/*
+img.centered{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20%;
+    overflow: hidden;
+}*/
+iframe{
+    float: right;
+    margin-right: 10%;
+}
+/*
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+*/
+.input100 {
+  display: block;
+  width: 30%;
+  background: transparent;
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+  padding-right: 15px;
+}
+
+.wrap-input100 {
+  width: 30%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  padding: 10px 30px 9px 22px;
+  margin-bottom: 20px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 20%;
+  height: 50px;
+  background-color: #333333;
+  border-radius: 25px;
+font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn:hover {
+  background-color: #00ad5f;
+}
+
+.contact100-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
