@@ -1,9 +1,11 @@
 body, html {
     /*background-color: #7f7f7f;
      background-image: repeating-radial-gradient(circle, white 20%, yellow 30%, green);*/
-    background-image: url("narhi_bold_stock_artikelikoko.jpg");
+    background-image: url("harold-0.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 	font-family: 'Raleway', sans-serif;
+    font-size: 19px;
 }
 #border_top{
 
@@ -80,7 +82,8 @@ ul.topnav li.icon {
     border-radius: 20px;
 }
 #border_text {  
-    opacity: 0.95;
+    text-shadow: 0px, 0px, black;
+    opacity: 0.75;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -133,7 +136,7 @@ p {
   width: 30%;
   background: transparent;
   font-family: Montserrat-SemiBold;
-  font-size: 18px;
+  font-size: 19px;
   color: #555555;
   line-height: 1.2;
   padding-right: 15px;
